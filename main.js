@@ -29,31 +29,33 @@ const App = () => {
       <div>
         <h1>Smudge The Beagle</h1>
 
-        <img
-          src={smudge1avif}
-          style={{ viewTransitionName: "smudge1", contain: "layout" }}
-          onClick={() => DisplayFullImage("/smudge1")}
-          width="100px"
-        ></img>
-
-        <img
-          src={smudge2avif}
-          style={{ viewTransitionName: "smudge2", contain: "layout" }}
-          onClick={() => DisplayFullImage("/smudge2")}
-          width="100px"
-        ></img>
-        <img
-          src={smudge3avif}
-          style={{ viewTransitionName: "smudge3", contain: "layout" }}
-          onClick={() => DisplayFullImage("/smudge3")}
-          width="100px"
-        ></img>
-        <img
-          src={smudge4avif}
-          style={{ viewTransitionName: "smudge4", contain: "layout" }}
-          onClick={() => DisplayFullImage("/smudge4")}
-          width="100px"
-        ></img>
+        <div style={{display: 'flex', justifyContent: 'space-around', 
+        alignItems: 'center', height: '80vh'}}>
+          <img
+            src={smudge1avif}
+            style={{ viewTransitionName: "smudge1", contain: "layout" }}
+            onClick={() => DisplayFullImage("/smudge1")}
+            width="200px"
+          ></img>
+          <img
+            src={smudge2avif}
+            style={{ viewTransitionName: "smudge2", contain: "layout" }}
+            onClick={() => DisplayFullImage("/smudge2")}
+            width="200px"
+          ></img>
+          <img
+            src={smudge3avif}
+            style={{ viewTransitionName: "smudge3", contain: "layout" }}
+            onClick={() => DisplayFullImage("/smudge3")}
+            width="200px"
+          ></img>
+          <img
+            src={smudge4avif}
+            style={{ viewTransitionName: "smudge4", contain: "layout" }}
+            onClick={() => DisplayFullImage("/smudge4")}
+            width="200px"
+          ></img>
+        </div>
       </div>
     </>
   );
