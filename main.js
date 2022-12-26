@@ -27,7 +27,7 @@ const App = () => {
   return (
     <>
       <div>
-        <h1>Smudge The Beagle</h1>
+        <h1 style={{display: 'flex', justifyContent: 'center'}}>Smudge The Beagle</h1>
 
         <div style={{display: 'flex', justifyContent: 'space-around', 
         alignItems: 'center', height: '80vh'}}>
